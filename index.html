@@ -62,7 +62,7 @@
 
   /* projects */
   .projects{display:grid;gap:22px}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:30px;display:grid;grid-template-columns:1.3fr 1fr;gap:30px;transition:.2s}
+  .card{scroll-margin-top:80px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:30px;display:grid;grid-template-columns:1.3fr 1fr;gap:30px;transition:.2s}
   .card:hover{border-color:#3a4456}
   .card .meta{font-family:var(--mono);font-size:12px;color:var(--muted);margin-bottom:8px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
   .card h3{font-size:22px;margin-bottom:10px}
@@ -167,7 +167,7 @@
     <div class="projects">
 
       <!-- FarmPass -->
-      <article class="card">
+      <article class="card" id="farmpass">
         <div>
           <div class="meta"><span class="badge live">Shipped</span> Mastercard · 2020 – 2024</div>
           <h3>FarmPass: NFC payments for farmers</h3>
@@ -193,7 +193,7 @@
       </article>
 
       <!-- Starfish -->
-      <article class="card">
+      <article class="card" id="connected-car-poc">
         <div>
           <div class="meta"><span class="badge live">Delivered</span> Starfish.team · 2025</div>
           <h3>Connected-car payments proof of concept</h3>
@@ -225,7 +225,7 @@
       </article>
 
       <!-- Maiqcheck -->
-      <article class="card">
+      <article class="card" id="maiqcheck">
         <div>
           <div class="meta"><span class="badge live">Live</span> NNCo Group · 2025 – now</div>
           <h3>Maiqcheck: music rights management platform</h3>
@@ -258,7 +258,7 @@
       </article>
 
       <!-- Split Sheet Generator -->
-      <article class="card">
+      <article class="card" id="split-sheet-generator">
         <div>
           <div class="meta"><span class="badge live">Live</span> NNCo Group · 2026</div>
           <h3>Split Sheet Generator</h3>
@@ -344,7 +344,7 @@
       </article>
 
       <!-- Finance tracker -->
-      <article class="card">
+      <article class="card" id="finance-tracker">
         <div>
           <div class="meta"><span class="badge wip">In development</span> Personal project · 2025 – now</div>
           <h3>Zero-based finance tracker (KMP)</h3>
